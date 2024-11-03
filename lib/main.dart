@@ -17,7 +17,6 @@ class EsoftCard extends StatefulWidget{
 
 class _EsoftCardState extends State<EsoftCard> {
 
-  static const String currentYear = 'Final Year';
 
   @override
   Widget build(BuildContext context){
@@ -44,67 +43,41 @@ class _EsoftCardState extends State<EsoftCard> {
               radius: 70.0,
               ),
             ),
-            Divider( //straight line under the pic
-              height:60.0,
-              color: Colors.white,
-            ),
 
-            Text('Name',
-              style: TextStyle(
-              fontSize: 18.0,
-              color: Colors.white,
-              letterSpacing: 2.0,
-            ),),
+
+
             SizedBox(height: 10.0,),
             Text(
               'Jane Doe',
               style:TextStyle(
-                  color: Colors.yellow,
+                fontFamily: 'Times New Roman',
+                  color: Colors.white,
                   letterSpacing: 2.0,
                   fontSize: 28.0,
                   fontWeight: FontWeight.bold,
               ),
             ),
 
-            SizedBox(height: 30.0,),
+            SizedBox(height: 10.0,),
             Text(
-              'Education Level',
+              'Flutter Developer',
               style: TextStyle(
+                fontFamily: 'Poppins',
+
                 color: Colors.white,
                 letterSpacing: 2.0,
                 fontSize: 18.0,
+                fontWeight: FontWeight.w400,
               ),
             ),
-            SizedBox(height: 10.0,),
-            Text(
-              'Undergraduate',
-              style: TextStyle(
-                color: Colors.yellow,
-                letterSpacing: 2.0,
-                fontSize: 28.0,
-                fontWeight: FontWeight.bold,
-              ),
+            Divider( //straight line under the pic
+              height:20.0,
+              indent: 40.0,
+              endIndent: 40.0,
+              color: Colors.white,
+              thickness: 1,
             ),
 
-            SizedBox(height:30.0,),
-            Text(
-              'Current Year',
-              style: TextStyle(
-                color: Colors.white,
-                letterSpacing: 2.0,
-                fontSize:18.0,
-                ),
-              ),
-            SizedBox(height:10.0,),
-            Text(
-              '$currentYear',
-                style: TextStyle(
-                color: Colors.yellow,
-                letterSpacing: 2.0,
-                  fontSize: 28.0,
-                  fontWeight: FontWeight.bold,
-              ),
-            ),
 
             SizedBox(height: 30.0,),
             Row(
@@ -115,7 +88,7 @@ class _EsoftCardState extends State<EsoftCard> {
                 ),
                 SizedBox(width:10.0,),
                 Text(
-                  '+94 77 203 9411',
+                  '+94 76 145 8744',
                   style: TextStyle(
                     fontSize: 18.0,
                     color:Colors.white,
@@ -132,7 +105,7 @@ class _EsoftCardState extends State<EsoftCard> {
                 ),
                 SizedBox(width:10.0,),
                 Text(
-                  'nimesh.kasun@edvicon.org',
+                  'jane.doe@esoft.org',
                   style: TextStyle(
                     color:Colors.white,
                     fontSize: 18.0,
